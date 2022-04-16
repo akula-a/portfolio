@@ -1,0 +1,29 @@
+nav{
+    background-color: #FF97C4;
+    color:white;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+#entrepreneurship{
+    background-color: #FFF389;
+}
+
+#web-dev{
+    background-color: #B0D9FF;
+}
+
+#app-dev{
+    background-color: #CAEFBE;
+}
+
+#business{
+    background-color: #FFC8C4;
+}
+
+.btn{
+    background-color: #FF97C4;
+    border: #FF97C4;
+}
