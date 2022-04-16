@@ -1,3 +1,4 @@
+/* Site wide styling */
 nav{
     background-color: #FF97C4;
     color:white;
@@ -26,4 +27,18 @@ nav{
 .btn{
     background-color: #FF97C4;
     border: #FF97C4;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#home{
+    text-decoration: underline #FF97C4 7px;
+}
+
+/* Footer styling */
+.container-fluid{
+    background-color: #FF97C4; 
 }
