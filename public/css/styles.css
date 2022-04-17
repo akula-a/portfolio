@@ -1,11 +1,14 @@
 /* Site wide styling */
 nav{
     background-color: #FF97C4;
-    color:white;
 }
 
 .navbar-nav{
     margin-left:auto;
+}
+
+nav li{
+    color:black;
 }
 
 #entrepreneurship{
@@ -39,6 +42,8 @@ a{
 }
 
 /* Footer styling */
-.container-fluid{
+#footer{
     background-color: #FF97C4; 
+    height: 5em;
+    margin-top: 1em;
 }
