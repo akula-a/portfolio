@@ -1,8 +1,117 @@
 /* Site wide styling */
+.intro_fold nav{
+    z-index: 2;
+    bottom:15em;
+}
+
+#detail_jumbo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white !important;
+    z-index: 1;
+    height:15em;
+}
+  
+
+/* Jumbotron styling */ 
+.jumbotron{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white !important;
+  height:35em;
+}
+
+.display-4{
+    font-size: 125px;
+    position: relative;
+}
+
+
+.intro_noun{
+    position: relative;
+    font-size: 65px;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+#intro_designer{
+    animation-delay: 2s;
+    font-family: cursive;
+}
+
+#intro_dev{
+    animation-delay: 4s;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("../images/headshot-nobg.png");
+}
+
+#intro_message{
+    position: sticky;
+    position: relative;
+    float: left;
+}
+
+#intro_scrolling{
+    position: default;
+    float: right; 
+}
 
 /* Nav bar styling */
 nav{
-    background-color: #FF97C4;
+    position: absolute;
 }
 
 .navbar-nav{
@@ -10,39 +119,40 @@ nav{
 }
 
 a.nav-link{
-    color:black;
+    color:white;
 }
 
 a.nav-link:hover{
-    color:white;
+    color:black;
     text-decoration: underline;
 }
 
 li.active{
-    background-color: white;
+    text-decoration: underline;
 }
  
 /*///////////////////////*/
 
 #entrepreneurship{
-    background-color: #FFF389;
+    background-color: #FFC9B5;
 }
 
 #web-dev{
-    background-color: #B0D9FF;
+    background-color: #F7B1AB;
 }
 
 #app-dev{
-    background-color: #CAEFBE;
+    background-color: #D8AA96;
 }
 
 #business{
-    background-color: #FFC8C4;
+    background-color: #C7D3BF;
 }
 
 .btn{
-    background-color: #FF97C4;
-    border: #FF97C4;
+    background-color: #00609B;
+    border: #00609B;
+    color:white;
 }
 
 a{
@@ -60,3 +170,5 @@ a{
     height: 5em;
     margin-top: 1em;
 }
+
+

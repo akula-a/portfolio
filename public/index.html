@@ -8,111 +8,56 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="/[YOUR_DIRECTORY]/gsap.min.js"></script>
 
     <title>Anjali Akula</title>
   </head>
   <body>
 
-    <div class = "container-fluid">
-
-      <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">AA</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="entrepreneurship.html"> Entrepreneurship </a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="web-dev.html">Web Dev</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="app-dev.html">Application Dev</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="business.html">Business</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="resume.pdf"> Contact Me </a>
-              </li>
-              </ul>
-        </div>
+    <!-- Jumbrotron entrance -->
+    <div class="jumbotron p-4">
+      <h1 class= "display-4"> Anjali Akula </h1>
+      <div class = "row">
+        <h1 class = "col-sm-4 text-center intro_noun" id = "intro_entre"> Entrepreneur </h1>
+        <h1 class = "col-sm-4 text-center intro_noun" id = "intro_designer"> Designer </h1>
+        <h1 class = "col-sm-4 text-center intro_noun" id = "intro_dev"> Developer </h1>
       </div>
-    </nav>
-
-    <!-- Introduction -->
-    <div class = "row m-4 justify-content-md-center">
-      <div class = "col-sm-5">
-        <h1 class = "header" id = "home">Hi, I'm Anjali</h1>
-        </br>
-        <p> I’m an Information Systems student at Carnegie Mellon, an aspiring entrepreneur, 
-          and someone who is passionate about environmental sustainability. Check out my projects to learn more.</p>
-        <button type="button" class="btn btn-primary btn-med"> Contact Me </button>
-        <button type="button" class="btn btn-primary btn-med"> Resume </button>
-        </br>
-        <div class = "row">
-          <div class = "col-sm-4"> <button type="button" class="btn rounded-circle"> Social 1</button> </div>
-          <div class = "col-sm-4"> <button type="button" class="btn rounded-circle">Social 2</button> </div>
-          <div class = "col-sm-4"> <button type="button" class="btn rounded-circle">Social 3</button> </div>
-        </div>
-      </div>
-      <div class = "col-sm-5 d-flex justify-content-center">
-        <img src="images/headshot.jpg" width = 230 height = 275 class = "rounded-circle">
-      </div>
+      <a> Contact Me </a>
+      <!--<img src = "images/headshot-nobg.png" id = "intro_img" style = "float:right;">-->
     </div>
 
-    <!--Spacer-->
-    <div class = "row"></div>
-
-    <!-- Project Cards -->
-
-    <h2> Check out my projects</h2>
-
-    <div class = "row justify-content-md-center">
-      <div class="card mb-3 text-center m-1" style="width: 22rem;" id = "entrepreneurship">
-        <div class="card-body">
-          <h5 class="card-title"> <a href = "entrepreneurship.html"> Entrepreneurship </a></h5>
-          <p class="card-text"></p>
-          <img class="card-img" src="images/entrepreneurship.svg" alt="Card image cap">
-        </div>
-      </div>
-      
-      <div class="card mb-3 text-center m-1" style="width: 22rem;" id="web-dev">
-        <div class="card-body">
-          <h5 class="card-title"> Web Development </h5>
-          <p class="card-text"></p>
-          <img class="card-img" src="images/web dev.svg" alt="Card image cap">
-        </div>
-      </div>
+    <!-- View Projects -->
+    <div class = "row justify-content-md-center m-4">
+      <h5 class = "text-center"> View My Work </h5>
+      <div class = "col-sm-3"> <a href = "entrepreneurship.html" class = "btn"> Entrepreneurship </a>  </div>
+      <div class = "col-sm-3"> <button type="button" class="btn"> <a href = "web-dev.html"> Web Development </a> </button> </div>
+      <div class = "col-sm-3"> <button type="button" class="btn"> <a href = "app-dev.html"> Application Development </a> </button> </div>
+      <div class = "col-sm-3"> <button type="button" class="btn"> <a href = "business.html">Business </a> </button> </div>
     </div>
 
-    <div class = "row justify-content-md-center">
-      <div class = "col-sm-2"></div>
-      <div class="card mb-3 text-center m-1" style="width: 22rem;" id = "app-dev">
-        <div class="card-body">
-          <h5 class="card-title"> Application Development </h5>
-          <p class="card-text"></p>
-          <img class="card-img" src="images/app dev.svg" alt="Card image cap">
-        </div>
+    <!-- About Me -->
+
+    <div class="row">
+      <div class="col-sm-6">
+          <h1 class = "header">Hi, I'm Anjali</h1>
+          </br>
+          <p> I’m an Information Systems student at Carnegie Mellon, an aspiring entrepreneur, 
+            and someone who is passionate about environmental sustainability. Check out my projects to learn more.</p>
+          </br>
+          </br>
+          </br>
+          </br>
+          <p> I’m an Information Systems student at Carnegie Mellon, an aspiring entrepreneur, 
+            and someone who is passionate about environmental sustainability. Check out my projects to learn more.</p>
       </div>
-      <div class="card mb-3 text-center m-1" style="width: 22rem;" id = "business">
-        <div class="card-body">
-          <h5 class="card-title"> Business </h5>
-          <p class="card-text"></p>
-          <img class="card-img" src="images/business.svg" alt="Card image cap">
-        </div>
-      </div>
-      <div class = "col-sm-2"></div>
+      <img class = "col-sm-5 sticky-top justify-content-md-center" src = "images/Home page graphic.png" width = 200px>
     </div>
 
-    <h2> Project Gallery </h2>
+    <!-- get in touch -->
+    <a href = ".." class = "btn text-center"> Let's get in touch </a>
 
-  </div>
 
+ 
    <!-- footer -->
   <div class = "container-fluid" id = "footer">
     <a href = "resume.pdf"> <p class = "text-start fw-bold"> Link to Resume </p> </a>
