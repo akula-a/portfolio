@@ -1,1 +1,9 @@
+h3:hover {
+    text-decoration: underline 0.15em #FFC9B5;
+    transition: text-decoration-color 300ms;
+    text-decoration-color: #FFC9B5;
+}
 
+.btn{
+    color: black;
+}

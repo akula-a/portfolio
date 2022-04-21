@@ -1,9 +1,4 @@
 /* Site wide styling */
-.intro_fold nav{
-    z-index: 2;
-    bottom:15em;
-}
-
 #detail_jumbo{
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +7,6 @@
     height:15em;
 }
   
-
 /* Jumbotron styling */ 
 .jumbotron{
   background: 
@@ -27,14 +21,23 @@
 }
 
 .display-4{
-    font-size: 125px;
+    font-size: 140px;
     position: relative;
+    z-index:2;
 }
 
+#intro_img{
+    position: absolute;
+    z-index:1;
+    margin-left:60%;
+    height: 33em;
+    opacity: 90%;
+}
 
 .intro_noun{
     position: relative;
-    font-size: 65px;
+    z-index:2;
+    font-size: 40px;
     animation: fadeIn linear 2s;
     -webkit-animation: fadeIn linear 2s;
     -moz-animation: fadeIn linear 2s;
@@ -120,6 +123,8 @@ nav{
 
 a.nav-link{
     color:white;
+    margin: 0.2em;
+    line-height: 0.2em;
 }
 
 a.nav-link:hover{
@@ -129,6 +134,11 @@ a.nav-link:hover{
 
 li.active{
     text-decoration: underline;
+}
+
+.intro_fold nav{
+    z-index: 3;
+    bottom:15em;
 }
  
 /*///////////////////////*/
@@ -169,6 +179,18 @@ a{
     background-color: #FF97C4; 
     height: 5em;
     margin-top: 1em;
+}
+
+#card-effects{
+  border-width: 3px;
+  box-shadow: 2px 2px grey;
+  transition: transform .2s;
+}
+
+#card-effects:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.03); 
 }
 
 
