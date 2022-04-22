@@ -1,23 +1,18 @@
 /* Site wide styling */
-#detail_jumbo{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color:white !important;
-    z-index: 1;
-    height:15em;
+a{
+  text-decoration: underline;
+}
+
+a:hover{
+  color:#00609B;
 }
   
 /* Jumbotron styling */ 
 .jumbotron{
-  background: 
-  linear-gradient(
-    rgba(0, 0, 250, 0.25), 
-    rgba(125, 250, 250, 0.45)
-  );
   background-repeat: no-repeat;
   background-attachment: fixed;
   color:white !important;
-  height:35em;
+  height:36em;
 }
 
 .display-4{
@@ -29,15 +24,15 @@
 #intro_img{
     position: absolute;
     z-index:1;
-    margin-left:60%;
-    height: 33em;
-    opacity: 90%;
+    margin-left:65%;
+    margin-top:4.5em;
+    height: 30em;
 }
 
 .intro_noun{
     position: relative;
     z-index:2;
-    font-size: 40px;
+    font-size: 50px;
     animation: fadeIn linear 2s;
     -webkit-animation: fadeIn linear 2s;
     -moz-animation: fadeIn linear 2s;
@@ -112,6 +107,62 @@
     float: right; 
 }
 
+#home_page_fold{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url("../images/business.jpg");
+  background-size:cover;
+}
+
+#business_page_fold{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url("../images/business.jpg");
+  background-size:cover;
+  height: 25em;
+}
+
+#entre_page_fold{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url("../images/business.jpg");
+  background-size:cover;
+  height: 25em;
+}
+
+#app_page_fold{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url("../images/business.jpg");
+  background-size:cover;
+  height: 25em;
+}
+
+#web_page_fold{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url("../images/business.jpg");
+  background-size:cover;
+  height: 25em;
+}
+
+
+
 /* Nav bar styling */
 nav{
     position: absolute;
@@ -138,31 +189,35 @@ li.active{
 
 .intro_fold nav{
     z-index: 3;
-    bottom:15em;
+    bottom:25em;
+}
+
+a.navbar-brand{
+  font-size: 2em;
+  font-family: cursive;
+  color:white;
+  margin-left: 1%;
 }
  
 /*///////////////////////*/
 
-#entrepreneurship{
-    background-color: #FFC9B5;
+#color-1{
+    background-color: rgba(0, 0, 250, 0.25);
 }
 
-#web-dev{
-    background-color: #F7B1AB;
-}
-
-#app-dev{
-    background-color: #D8AA96;
-}
-
-#business{
-    background-color: #C7D3BF;
+#color-2{
+    background-color: rgba(125, 250, 250, 0.45);
 }
 
 .btn{
     background-color: #00609B;
     border: #00609B;
     color:white;
+}
+
+.btn:hover{
+  transform: scale(1.03);
+  color:white;
 }
 
 a{
@@ -176,8 +231,13 @@ a{
 
 /* Footer styling */
 #footer{
-    background-color: #FF97C4; 
-    height: 5em;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 250, 0.25), 
+      rgba(125, 250, 250, 0.45)
+    );
+    background-repeat: no-repeat;
+    color:white !important;
     margin-top: 1em;
 }
 
@@ -193,4 +253,40 @@ a{
   transform: scale(1.03); 
 }
 
+.app-dev-img:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.03); 
+}
 
+.video {
+  position: relative;
+}
+
+.app-dev-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.video:hover .app-dev-img {
+  opacity: 0.3;
+}
+
+.video:hover .middle {
+  opacity: 1;
+}
