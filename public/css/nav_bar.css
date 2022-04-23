@@ -1,0 +1,36 @@
+
+/* Nav bar styling */
+nav{
+    position: absolute;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+a.nav-link{
+    color:white;
+    margin: 0.2em;
+    line-height: 0.2em;
+}
+
+a.nav-link:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+li.active{
+    text-decoration: underline;
+}
+
+.intro_fold nav{
+    z-index: 3;
+    bottom:25em;
+}
+
+a.navbar-brand{
+  font-size: 2em;
+  font-family: cursive;
+  color:white;
+  margin-left: 1%;
+}

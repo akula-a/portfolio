@@ -1,0 +1,143 @@
+/* Jumbotron styling */ 
+.jumbotron{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white !important;
+    height:36em;
+    font-weight: bold;
+  }
+  
+  .display-4{
+      font-size: 140px;
+      position: relative;
+      z-index:2;
+  }
+  
+/* Home page jumbotron styling */ 
+  #intro_img{
+      position: absolute;
+      z-index:1;
+      margin-left:65%;
+      margin-top:4.5em;
+      height: 30em;
+  }
+  
+  .intro_noun{
+      position: relative;
+      font-weight: bold;
+      z-index:2;
+      font-size: 50px;
+      animation: fadeIn linear 2s;
+      -webkit-animation: fadeIn linear 2s;
+      -moz-animation: fadeIn linear 2s;
+      -o-animation: fadeIn linear 2s;
+      -ms-animation: fadeIn linear 2s;
+  }
+  
+  @keyframes fadeIn {
+      0% { opacity:0; }
+      50% { opacity: 0;}
+      100% { opacity:1; }
+    }
+    
+    @-moz-keyframes fadeIn {
+        0% { opacity:0; }
+        50% { opacity: 0;}
+        100% { opacity:1; }
+    }
+    
+    @-webkit-keyframes fadeIn {
+        0% { opacity:0; }
+        50% { opacity: 0;}
+        100% { opacity:1; }
+    }
+    
+    @-o-keyframes fadeIn {
+        0% { opacity:0; }
+        50% { opacity: 0;}
+        100% { opacity:1; }
+    }
+    
+    @-ms-keyframes fadeIn {
+        0% { opacity:0; }
+        50% { opacity: 0;}
+        100% { opacity:1; }
+  }
+  
+  #intro_designer{
+      animation-delay: 2s;
+      font-family: cursive;
+  }
+  
+  #intro_dev{
+      animation-delay: 4s;
+      font-family:'Courier New', Courier, monospace;
+      background-image: url("../images/headshot-nobg.png");
+  }
+  
+  #intro_message{
+      position: sticky;
+      position: relative;
+      float: left;
+  }
+  
+  #intro_scrolling{
+      position: default;
+      float: right; 
+  }
+  
+  #home_page_fold{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 250, 0.50), 
+      rgba(125, 250, 250, 0.75)
+    ),
+    url("../images/jumbotron/business.jpg");
+    background-size:cover;
+  }
+  
+/* Specific page folds */
+  #business_page_fold{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 250, 0.50), 
+      rgba(125, 250, 250, 0.75)
+    ),
+    url("../images/jumbotron/business.jpg");
+    background-size:cover;
+    height: 25em;
+  }
+  
+  #entre_page_fold{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 250, 0.50), 
+      rgba(125, 250, 250, 0.75)
+    ),
+    url("../images/jumbotron/entrepreneurship.jpg");
+    background-size:cover;
+    height: 25em;
+  }
+  
+  #app_page_fold{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 250, 0.50), 
+      rgba(125, 250, 250, 0.75)
+    ),
+    url("../images/jumbotron/app-dev.jpg");
+    background-size:cover;
+    height: 25em;
+  }
+  
+  #web_page_fold{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 250, 0.50), 
+      rgba(125, 250, 250, 0.75)
+    ),
+    url("../images/jumbotron/web-dev.jpg");
+    background-size:cover;
+    height: 25em;
+  }
+  

@@ -1,4 +1,17 @@
 /* Site wide styling */
+
+/* from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Akshar', sans-serif;
+}
+
+p, a{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 a{
   text-decoration: underline;
 }
@@ -6,200 +19,11 @@ a{
 a:hover{
   color:#00609B;
 }
-  
-/* Jumbotron styling */ 
-.jumbotron{
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color:white !important;
-  height:36em;
+
+h3:hover {
+  text-decoration: underline 0.15em #00609B;
+  transition: text-decoration-color 300ms;
 }
-
-.display-4{
-    font-size: 140px;
-    position: relative;
-    z-index:2;
-}
-
-#intro_img{
-    position: absolute;
-    z-index:1;
-    margin-left:65%;
-    margin-top:4.5em;
-    height: 30em;
-}
-
-.intro_noun{
-    position: relative;
-    z-index:2;
-    font-size: 50px;
-    animation: fadeIn linear 2s;
-    -webkit-animation: fadeIn linear 2s;
-    -moz-animation: fadeIn linear 2s;
-    -o-animation: fadeIn linear 2s;
-    -ms-animation: fadeIn linear 2s;
-}
-
-@keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-  }
-}
-
-#intro_designer{
-    animation-delay: 2s;
-    font-family: cursive;
-}
-
-#intro_dev{
-    animation-delay: 4s;
-    font-family:'Courier New', Courier, monospace;
-    background-image: url("../images/headshot-nobg.png");
-}
-
-#intro_message{
-    position: sticky;
-    position: relative;
-    float: left;
-}
-
-#intro_scrolling{
-    position: default;
-    float: right; 
-}
-
-#home_page_fold{
-  background: 
-  linear-gradient(
-    rgba(0, 0, 250, 0.25), 
-    rgba(125, 250, 250, 0.45)
-  ),
-  url("../images/business.jpg");
-  background-size:cover;
-}
-
-#business_page_fold{
-  background: 
-  linear-gradient(
-    rgba(0, 0, 250, 0.25), 
-    rgba(125, 250, 250, 0.45)
-  ),
-  url("../images/business.jpg");
-  background-size:cover;
-  height: 25em;
-}
-
-#entre_page_fold{
-  background: 
-  linear-gradient(
-    rgba(0, 0, 250, 0.25), 
-    rgba(125, 250, 250, 0.45)
-  ),
-  url("../images/business.jpg");
-  background-size:cover;
-  height: 25em;
-}
-
-#app_page_fold{
-  background: 
-  linear-gradient(
-    rgba(0, 0, 250, 0.25), 
-    rgba(125, 250, 250, 0.45)
-  ),
-  url("../images/business.jpg");
-  background-size:cover;
-  height: 25em;
-}
-
-#web_page_fold{
-  background: 
-  linear-gradient(
-    rgba(0, 0, 250, 0.25), 
-    rgba(125, 250, 250, 0.45)
-  ),
-  url("../images/business.jpg");
-  background-size:cover;
-  height: 25em;
-}
-
-
-
-/* Nav bar styling */
-nav{
-    position: absolute;
-}
-
-.navbar-nav{
-    margin-left:auto;
-}
-
-a.nav-link{
-    color:white;
-    margin: 0.2em;
-    line-height: 0.2em;
-}
-
-a.nav-link:hover{
-    color:black;
-    text-decoration: underline;
-}
-
-li.active{
-    text-decoration: underline;
-}
-
-.intro_fold nav{
-    z-index: 3;
-    bottom:25em;
-}
-
-a.navbar-brand{
-  font-size: 2em;
-  font-family: cursive;
-  color:white;
-  margin-left: 1%;
-}
- 
-/*///////////////////////*/
 
 #color-1{
     background-color: rgba(0, 0, 250, 0.25);
@@ -208,6 +32,8 @@ a.navbar-brand{
 #color-2{
     background-color: rgba(125, 250, 250, 0.45);
 }
+
+/* Button styling */
 
 .btn{
     background-color: #00609B;
@@ -225,10 +51,6 @@ a{
     text-decoration: none;
 }
 
-#home{
-    text-decoration: underline #FF97C4 7px;
-}
-
 /* Footer styling */
 #footer{
     background: 
@@ -241,10 +63,13 @@ a{
     margin-top: 1em;
 }
 
+/* Card styling */
+
 #card-effects{
   border-width: 3px;
   box-shadow: 2px 2px grey;
   transition: transform .2s;
+  border-radius: 3px 0 3px 0;
 }
 
 #card-effects:hover{
@@ -259,6 +84,7 @@ a{
   transform: scale(1.03); 
 }
 
+/* Hover over image effect */
 .video {
   position: relative;
 }
