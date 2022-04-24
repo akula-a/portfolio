@@ -1,9 +1,6 @@
 # Portfolio
 
-a. (optional) Embed your video: embed your same video in your readme file
-    i. https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-
-github-readme-md
-    ii. It might be easier if you use YouTube
+a. Walkthrough video: https://drive.google.com/file/d/1zpQvr3wkiBbtpKr-kjNTkvAwRYN7V2QL/view?usp=sharing 
 
 b. Links
     i. Figma: https://www.figma.com/proto/7rjs6aYzpRampF5fXfFaQy/PUI-Assignment-7?node-id=16%3A56&scaling=scale-down&page-id=0%3A1&starting-point-node-id=16%3A56&show-proto-sidebar=1
