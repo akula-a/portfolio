@@ -13,17 +13,24 @@
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <script src = "float-panel.js"></script>
 
+    <!-- overwriting normal h3 styling -->
+    <style>
+      h3{
+        text-decoration: underline #00609B;
+      }
+    </style>
+
     <title>Anjali Akula</title>
   </head>
   <body>
     <div class = "intro_fold">
       <div class="jumbotron p-4" id = "business_page_fold">
       </br> </br> 
-        <h1 class = "mt-5" style = "font-size: 100px;" > Hi, I'm Anjali! Nice to meet you </h1>
+        <h1 class = "mt-5" style = "font-size: 100px;" > About </h1>
       </div>
 
   <!-- navigation bar -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="index.html">AA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -58,66 +65,81 @@
 
     <div class="container-fluid">
       <div class="row featurette">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <h3 class="featurette-heading"> Hi, I'm Anjali <span class="text-muted"> Nice to meet you :)</span></h3>
-            <h5> I’m an Information Systems student at Carnegie Mellon, an aspiring entrepreneur, 
-              and someone who is passionate about environmental sustainability. Check out my projects to learn more.</h5>
+            <h5> I’m an Information Systems student at Carnegie Mellon with a minor in Business, an aspiring entrepreneur, 
+              and someone who is passionate about environmental sustainability. </h5>
         </div>
-        <img class="col-sm-3 slideanim featurette-image" src = "images/about/Casual Headshot.jpeg">
-        <img class="col-sm-3 slideanim featurette-image" src = "images/about/headshot.jpg">
+        <img class="col-md-3 slideanim featurette-image" src = "images/about/Casual Headshot.jpeg">
+        <img class="col-md-3 slideanim featurette-image" src = "images/about/headshot.jpg">
       </div>
 
     </br> </br> 
 
       <div class="row featurette">
-        <img class="col-sm-6 slideanim" src = "images/about/nj.png">
-        <div class="col-sm-6">
-          <h3 class="featurette-heading"> Where I Grew Up </h3>
+        <img class="col-md-6 slideanim" src = "images/about/nj.png" height = "500em">
+        <div class="col-md-6">
+          <h3 class="featurette-heading"> Growing Up </h3>
             <h5> I'm originally from New Jersey and grew up there from the time I was 5. I developed my interest 
-              for sustainability during high school and was SUPER involved in extracurriculars like robotics and Model UN. High school
-              was where I learned about my abilities to lead, people manage, and multitask.
+              for sustainability during high school and was SUPER involved in extracurriculars like robotics, Model UN and volunteering
+              with Sandy Hook Promise. I did everything you could think of from dance to track to debate to music and writing. I learned
+              about my interests, and more importantly, what I didn't like.
             </h5>
+            </br>
+            <h5> More than academics, high school was where I learned about my abilities to lead, people manage, and multitask (and
+              how to know when I'm burning myself out).</h5>
         </div>
       </div>
 
     </br> </br> 
 
       <div class="row featurette">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <h3 class="featurette-heading"> New Jersey to Pittsburgh </h3>
             <h5> I came to Carnegie Mellon to study engineering, and very, <strong> very </strong> quickly realized it wasn't 
-            for me. I switched to Information Systems and since then have been learning how to make tech products for people. I 
-            still dance on the side a little too :) </h5>
+            for me. I switched to Information Systems and since then have been learning how to make tech products for people. I'm really
+            interested in the way that we apply technology to different societal problems and I've done a lot of consulting projects
+            during college to explore this idea. I worked with a non-profit to develop websites for small business and have screens
+            how technology can really improve efficiency, and instances where tech really isn't needed. </h5>
+            </br>
+            <h5> I also began chasing my interest in sustainability, doing an internship at the Scott Institute of Energy Innovation,
+              taking classes about climate change and now, working for a sustainability based startup.
+            </h5>
+            </br>
+            <h5> I still dance on the side a little too :)</h5>
         </div>
-        <img class="col-sm-6 slideanim" src = "images/about/nj-to-pgh.png">
+        <img class="col-md-6 slideanim" src = "images/about/nj-to-pgh.png" height = "500em">
       </div>
 
     </br> </br> 
 
     <div class="row featurette">
-      <img class="col-sm-3 slideanim" src = "images/about/Casual Headshot.jpeg">
-      <img class="col-sm-3 slideanim" src = "images/about/headshot.jpg">
-      <div class="col-sm-6">
-        <h3 class="featurette-heading"> Where I am Today </h3>
-          <h5> Now, I'm a soon-to-be senior planning on heading into consulting after graduation. I hope to work
-            for an early stage startup full-time one day and make an impact on the field of sustainability. </h5>
+      <img class="col-md-3 slideanim" src = "images/about/Casual Headshot.jpeg">
+      <img class="col-md-3 slideanim" src = "images/about/headshot.jpg">
+      <div class="col-md-6">
+        <h3 class="featurette-heading"> Where I am Today </h3> <span class="text-muted"> And thanks for stopping by! </span>
+          <h5> Now, I'm a soon-to-be senior planning on heading into consulting at Oliver Wyman after graduation. I work at a startup
+            on the side called Kloopify where we help procurement departments in enterprise companies reach their sustainability goals.
+            I'm learning to combine my knowledge in tech and practically apply it to sustainability at Kloopify. </h5>
+          </br>
+          <h5> I hope to work for an early stage startup full-time one day and make an impact on the field of sustainability. </h5>
       </div>
     </div>
 
   </br> </br> 
 
   <!-- get in touch -->
-  <h3> Need a developer, designer, or just want to chat? </h3>
+  <h3 class = "text-center"> Need a developer, designer, or just want to chat? </h3>
   <div class = "row justify-content-md-center">
-    <a href = "contact.html" class = "col-lg-2 btn text-center"> Contact Me </a>
+    <a href = "contact.html" class = "col-md-2 btn text-center"> Contact Me </a>
   </div>
 
  
     <!-- footer -->
   <div class = "row p-4" id = "footer">
-    <a class = "col-lg-4 text-center" href = "resume.pdf"> <h5> Resume </h5> </a>
-    <h5 class = "col-lg-4 text-center" style = "color: black;">  Email: aakula@andrew.cmu.edu </h5> 
-    <a class = "col-lg-4 text-center" href = "https://www.linkedin.com/in/anjali-akula/"> <h5> LinkedIn </h5> </a>
+    <a class = "col-md-4 text-center" href = "resume.pdf"> <h5> Resume </h5> </a>
+    <h5 class = "col-md-4 text-center" style = "color: black;">  Email: aakula@andrew.cmu.edu </h5> 
+    <a class = "col-md-4 text-center" href = "https://www.linkedin.com/in/anjali-akula/"> <h5> LinkedIn </h5> </a>
   </div>
 
     <!-- Bootstrap Bundle with Popper -->

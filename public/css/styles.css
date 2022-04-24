@@ -85,11 +85,11 @@ a{
 }
 
 /* Hover over image effect */
-.video {
+.link-container {
   position: relative;
 }
 
-.app-dev-img {
+.hover-img {
   opacity: 1;
   display: block;
   width: 100%;
@@ -109,10 +109,10 @@ a{
   text-align: center;
 }
 
-.video:hover .app-dev-img {
+.link-container:hover .hover-img {
   opacity: 0.3;
 }
 
-.video:hover .middle {
+.link-container:hover .middle {
   opacity: 1;
 }
